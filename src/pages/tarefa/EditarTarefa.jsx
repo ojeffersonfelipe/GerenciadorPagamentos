@@ -117,7 +117,7 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
             </Grid>
             <Grid item xs={3}>  
               <FormControl fullWidth>
-                <InputLabel htmlFor="tarefa_recurso">Conta</InputLabel>
+                <InputLabel htmlFor="tarefa_recurso">Conta Origem</InputLabel>
                 <Select
                   id="tarefa_recurso"
                   value={recursoTarefa}
